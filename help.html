@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Hash Verifier Help</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .nav {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .nav a {
+            display: block;
+            margin: 5px 0;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #f0f0f0;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .note {
+            background: #fff3cd;
+            padding: 10px;
+            border-left: 4px solid #ffc107;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h3>Quick Links</h3>
+        <a href="#main">Main Window</a>
+        <a href="#verify">Verify Single File</a>
+        <a href="#compare">Compare Files</a>
+        <a href="#batch">Batch Process</a>
+        <a href="#history">View History</a>
+        <a href="#export">Export History</a>
+        <a href="#settings">Settings</a>
+    </div>
+
+    <h1>File Hash Verifier Help</h1>
+
+    <div id="main" class="section">
+        <h2>Main Window</h2>
+        <p>The main window provides access to all features of the File Hash Verifier:</p>
+        <ul>
+            <li>Verify Single File - Calculate and verify hash of a single file</li>
+            <li>Compare Two Files - Compare hashes of two files</li>
+            <li>Batch Process - Process multiple files at once</li>
+            <li>View History - View previous hash operations</li>
+            <li>Export History - Export history to various formats</li>
+            <li>Change Log Directory - Set where log files are saved</li>
+            <li>Toggle Theme - Switch between light and dark themes</li>
+        </ul>
+    </div>
+
+    <div id="verify" class="section">
+        <h2>Verify Single File</h2>
+        <p>This feature allows you to:</p>
+        <ol>
+            <li>Select a file to verify</li>
+            <li>Choose a hash algorithm (MD5, SHA-1, SHA-256, SHA-512)</li>
+            <li>View the calculated hash</li>
+            <li>Verify against a known hash</li>
+            <li>Save the hash to a file</li>
+            <li>Copy the hash to clipboard</li>
+            <li>Generate a hash file</li>
+        </ol>
+        <div class="note">
+            <strong>Note:</strong> The hash is displayed in the last 10 digits for better readability in reports.
+        </div>
+    </div>
+
+    <div id="compare" class="section">
+        <h2>Compare Two Files</h2>
+        <p>This feature allows you to:</p>
+        <ol>
+            <li>Select two files to compare</li>
+            <li>Choose a hash algorithm</li>
+            <li>View the hashes of both files</li>
+            <li>See if the files are identical</li>
+        </ol>
+    </div>
+
+    <div id="batch" class="section">
+        <h2>Batch Process</h2>
+        <p>This feature allows you to:</p>
+        <ol>
+            <li>Select multiple files to process</li>
+            <li>Choose a hash algorithm</li>
+            <li>Calculate hashes for all files</li>
+            <li>Save results to a log file</li>
+        </ol>
+    </div>
+
+    <div id="history" class="section">
+        <h2>View History</h2>
+        <p>The history view shows:</p>
+        <ul>
+            <li>Date and time of each operation</li>
+            <li>File name and path</li>
+            <li>Algorithm used</li>
+            <li>Hash value (last 10 digits)</li>
+            <li>Verification status</li>
+        </ul>
+    </div>
+
+    <div id="export" class="section">
+        <h2>Export History</h2>
+        <p>You can export history in multiple formats:</p>
+        <ul>
+            <li>HTML - Formatted report with styling</li>
+            <li>PDF - Printer-friendly document</li>
+            <li>CSV - Spreadsheet-compatible format</li>
+            <li>JSON - Structured data format</li>
+        </ul>
+        <p>Export options include:</p>
+        <ul>
+            <li>Date range selection</li>
+            <li>Format selection</li>
+            <li>Custom save location</li>
+        </ul>
+    </div>
+
+    <div id="settings" class="section">
+        <h2>Settings</h2>
+        <h3>Log Directory</h3>
+        <p>You can change where log files are saved:</p>
+        <ol>
+            <li>Click "Change Log Directory"</li>
+            <li>Select a new directory</li>
+            <li>The directory must be writable</li>
+        </ol>
+
+        <h3>Theme</h3>
+        <p>Toggle between light and dark themes:</p>
+        <ul>
+            <li>Light theme - Default, easy to read in bright environments</li>
+            <li>Dark theme - Easier on the eyes in low-light conditions</li>
+        </ul>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,8 @@
+# No external dependencies required
+# tkinter is included with Python's standard library 
+
+# Required for building executable
+pyinstaller>=6.3.0 
+
+# Required for PDF generation
+reportlab>=4.0.0 

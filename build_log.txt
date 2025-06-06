@@ -1,0 +1,139 @@
+Build started at Fri 06/06/2025 13:10:54.23 
+============================ 
+File Hash Verifier Build Script 
+============================ 
+ECHO is off.
+Checking Python installation... 
+Python found. 
+Checking tkinter... 
+tkinter found. 
+Checking requirements.txt... 
+requirements.txt found. 
+Installing requirements... 
+Requirement already satisfied: pyinstaller>=6.3.0 in c:\users\john\appdata\local\programs\python\python313\lib\site-packages (from -r requirements.txt (line 5)) (6.13.0)
+Requirement already satisfied: reportlab>=4.0.0 in c:\users\john\appdata\local\programs\python\python313\lib\site-packages (from -r requirements.txt (line 8)) (4.4.1)
+Requirement already satisfied: setuptools>=42.0.0 in c:\users\john\appdata\local\programs\python\python313\lib\site-packages (from pyinstaller>=6.3.0->-r requirements.txt (line 5)) (80.4.0)
+Requirement already satisfied: altgraph in c:\users\john\appdata\local\programs\python\python313\lib\site-packages (from pyinstaller>=6.3.0->-r requirements.txt (line 5)) (0.17.4)
+Requirement already satisfied: pefile!=2024.8.26,>=2022.5.30 in c:\users\john\appdata\local\programs\python\python313\lib\site-packages (from pyinstaller>=6.3.0->-r requirements.txt (line 5)) (2023.2.7)
+Requirement already satisfied: pywin32-ctypes>=0.2.1 in c:\users\john\appdata\local\programs\python\python313\lib\site-packages (from pyinstaller>=6.3.0->-r requirements.txt (line 5)) (0.2.3)
+Requirement already satisfied: pyinstaller-hooks-contrib>=2025.2 in c:\users\john\appdata\local\programs\python\python313\lib\site-packages (from pyinstaller>=6.3.0->-r requirements.txt (line 5)) (2025.4)
+Requirement already satisfied: packaging>=22.0 in c:\users\john\appdata\local\programs\python\python313\lib\site-packages (from pyinstaller>=6.3.0->-r requirements.txt (line 5)) (25.0)
+Requirement already satisfied: pillow>=9.0.0 in c:\users\john\appdata\local\programs\python\python313\lib\site-packages (from reportlab>=4.0.0->-r requirements.txt (line 8)) (11.2.1)
+Requirement already satisfied: chardet in c:\users\john\appdata\local\programs\python\python313\lib\site-packages (from reportlab>=4.0.0->-r requirements.txt (line 8)) (5.2.0)
+Requirements installed successfully. 
+Creating version file... 
+Version file created successfully at: C:\Users\John\Documents\Programming Projects\File-Hash\Git-Hub-Hash\version.txt 
+ECHO is off.
+Building executable... 
+This may take a few minutes... 
+ECHO is off.
+Checking for running instances... 
+ERROR: The process "FileHashVerifier.exe" not found.
+No running instances found. 
+Setting up build directories... 
+Cleaning up previous build artifacts... 
+Running PyInstaller... 
+132 INFO: PyInstaller: 6.13.0, contrib hooks: 2025.4
+133 INFO: Python: 3.13.3
+191 INFO: Platform: Windows-11-10.0.26100-SP0
+191 INFO: Python environment: C:\Users\John\AppData\Local\Programs\Python\Python313
+191 INFO: wrote C:\Users\John\Documents\Programming Projects\File-Hash\Git-Hub-Hash\FHV.spec
+193 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip',
+ 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\DLLs',
+ 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib',
+ 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313',
+ 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages',
+ 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32',
+ 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin',
+ 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor',
+ 'C:\\Users\\John\\Documents\\Programming Projects\\File-Hash\\Git-Hub-Hash']
+511 INFO: Appending 'datas' from .spec
+511 INFO: checking Analysis
+518 INFO: Building because C:\Users\John\Documents\Programming Projects\File-Hash\Git-Hub-Hash\file_hash_verifier.py changed
+518 INFO: Running Analysis Analysis-00.toc
+518 INFO: Target bytecode optimization level: 0
+518 INFO: Initializing module dependency graph...
+519 INFO: Initializing module graph hook caches...
+525 INFO: Analyzing modules for base_library.zip ...
+1556 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+2328 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+2991 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+3205 INFO: Caching module dependency graph...
+3229 INFO: Looking for Python shared library...
+3232 INFO: Using Python shared library: C:\Users\John\AppData\Local\Programs\Python\Python313\python313.dll
+3232 INFO: Analyzing C:\Users\John\Documents\Programming Projects\File-Hash\Git-Hub-Hash\file_hash_verifier.py
+3247 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+3248 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+3385 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+3532 INFO: Processing standard module hook 'hook-reportlab.lib.utils.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+3554 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+3608 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+3891 INFO: Processing standard module hook 'hook-numpy.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+4067 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+4143 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+4633 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+4737 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+4780 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+5509 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+5509 INFO: SetuptoolsInfo: initializing cached setuptools info...
+7592 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+7822 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+7913 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+8054 INFO: Processing standard module hook 'hook-reportlab.pdfbase._fontdata.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+9595 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+9633 INFO: Processing module hooks (post-graph stage)...
+9780 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+9861 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+9868 INFO: Performing binary vs. data reclassification (932 entries)
+9931 INFO: Looking for ctypes DLLs
+9945 INFO: Analyzing run-time hooks ...
+9947 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9949 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9950 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9951 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+9973 INFO: Creating base_library.zip...
+9999 INFO: Looking for dynamic libraries
+10332 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\John\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs']
+10333 INFO: Extra DLL search directories (PATH): []
+10617 INFO: Warnings written to C:\PyBuild\build\FHV\warn-FHV.txt
+10640 INFO: Graph cross-reference written to C:\PyBuild\build\FHV\xref-FHV.html
+10661 INFO: checking PYZ
+10678 INFO: checking PKG
+10681 INFO: Building because toc changed
+10681 INFO: Building PKG (CArchive) FHV.pkg
+14612 INFO: Building PKG (CArchive) FHV.pkg completed successfully.
+14622 INFO: Bootloader C:\Users\John\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+14622 INFO: checking EXE
+14627 INFO: Rebuilding EXE-00.toc because FHV.exe missing
+14627 INFO: Building EXE from EXE-00.toc
+14627 INFO: Copying bootloader EXE to C:\PyBuild\dist\FHV.exe
+14640 INFO: Copying version information to EXE
+14644 INFO: Copying 0 resources to EXE
+14644 INFO: Embedding manifest in EXE
+14647 INFO: Appending PKG archive to EXE
+14664 INFO: Fixing EXE headers
+14770 INFO: Building EXE from EXE-00.toc completed successfully.
+14780 INFO: Build complete! The results are available in: C:\PyBuild\dist
+ECHO is off.
+Build successful Moving executable to final location... 
+        1 file(s) moved.
+The executable has been created in the 'dist' folder. 
+You can find it at: C:\Users\John\Documents\Programming Projects\File-Hash\Git-Hub-Hash\dist\FHV.exe 
+ECHO is off.
+NOTE: Some antivirus software may flag this executable as suspicious. 
+This is a false positive because the executable is not digitally signed. 
+You can safely add it to your antivirus exclusion list. 
+ECHO is off.
+To verify the executable is safe: 
+1. The source code is available in file_hash_verifier.py 
+2. The executable was built from this source code 
+3. No external dependencies were added during the build 
+Cleaning up... 
+The system cannot find the file specified.
+The system cannot find the file specified.
+ECHO is off.
+Build completed at Fri 06/06/2025 13:11:12.26 
+Check build_log.txt for detailed information 
